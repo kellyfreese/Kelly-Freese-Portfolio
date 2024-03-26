@@ -12,7 +12,7 @@
    ========================================================================== */
 
    html {
-    color: #222;
+    color: #351D77;
     font-size: 1em;
     line-height: 1.4;
   }
@@ -99,29 +99,45 @@
   figure {
     margin:0;
   }
+
   
   body {
    font-family: 'Open Sans', sans-serif;
    font-size: 1em;
-   text-align: left;
-   color: #e2e3ed;
+   text-align: center;
+   color: #351D77;
   }
    
   ul, 
   ol {
    list-style-type:none;
    display: inline;
-   align-items: right;
+
   }
 
   li {
-    padding: 10px; 
+    padding: 10px;
+  }
 
+  a {
+    color: #351D77;
+    text-decoration: none;
+  }
+
+  .contact-link {
+    background-color: #351D77 ;
+    padding: 10px, 10px;
+    border-radius: 30px;
+    color: white;
+    text-wrap: nowrap;
+  }
+
+  header  div {
+    
   }
    
-  a {
-      color: #e2e3ed;
-    text-decoration: none;
+  h1 {
+    font-size: 4em
   }
    
   h2 {
@@ -151,7 +167,7 @@
   
   .content-wrapper {
     width: 90%;
-    margin: 50px 0;
+    margin: 50px 50px;
   }
   
   /* -------------------- Base Header - Footer Styles---------------------- */
@@ -164,7 +180,7 @@
   }
   
   header {
-   padding: 15px 0;
+   padding: 15px 15px;
    background-color: #EC91C4;
   }
   
@@ -195,19 +211,19 @@
     flex-flow: row wrap;
   }
   
-  .header-divider {
+  /* .header-divider {
     height: 1px;
     width: 100%;
     margin: 10px 0 20px 0;
     background: #3a3a3a;
-  }
+  } */
   
   header nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
-    width: 60%;
+    width: 100%;
     font-size: 1.125em;
     font-weight: 700;
     text-transform: uppercase;
@@ -218,11 +234,17 @@
     justify-content: space-around;
     width: 100%;
     padding: 0;
-    margin: 0;
+    margin-right: 30px;
+    
   }
   
   header nav ul li {
     font-size: 1.125em;
+  }
+
+  header introduction {
+    display: flex;
+    text-align: center;
   }
   
   footer {
@@ -639,7 +661,7 @@
     }
   
     header nav {
-      width: 20%;
+      width: 50%;
     }
   
     header nav ul {
@@ -649,6 +671,8 @@
     .header-divider {
       display: none;
     }
+
+    
   
   /*Hero Area*/
   
