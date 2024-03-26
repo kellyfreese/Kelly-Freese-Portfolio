@@ -131,10 +131,6 @@
     color: white;
     text-wrap: nowrap;
   }
-
-  header  div {
-    
-  }
    
   h1 {
     font-size: 4em
@@ -181,17 +177,12 @@
   
   header {
    padding: 15px 15px;
-   background-color: #EC91C4;
+   background-image: url(../img/codioful-formerly-gradienta-7brhZmwXn08-unsplash.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
   }
   
-  header .content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    margin: 0;
-    width: 100%;
-  }
+  
   
   header figure {
     width: 60%;
@@ -209,6 +200,7 @@
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width: 100%;
   }
   
   /* .header-divider {
@@ -242,8 +234,7 @@
     font-size: 1.125em;
   }
 
-  header introduction {
-    display: flex;
+  header .intro {
     text-align: center;
   }
   
@@ -308,7 +299,7 @@
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    background-image: url(../img/jake-melara-30679-unsplash.jpg);
+    background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -319,9 +310,11 @@
   
   .hero-area h1 {
     font-size: 2.25em;
-    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color:#351D77;
     font-weight: 500; 
     line-height: 1.2; 
+    
   }
   
   /* Aside */
@@ -331,8 +324,8 @@
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    background-color: #527158;
-    color: #e2e3ed;
+    background-color: #fcb6b8;
+    color:#351D77
   }
   
   aside .content-wrapper {
@@ -360,7 +353,7 @@
   input[type=text] {
     box-sizing: border-box;
     width: 100%;
-    color: #2a423a;
+    color:#351D77;
     font-style: italic;
     padding: 1em;
   }
@@ -379,9 +372,9 @@
     text-transform: uppercase;
   }
   
-  /* Features */
+  /* projects */
   
-  .features {
+  .projects {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -391,28 +384,28 @@
     background-position: center;
   }
   
-  .features h2 { 
+  .projects h2 { 
     margin-bottom: 60px;
   }
   
-  .features article {
+  .projects article {
     width: 63%;
     margin: 30px 0;
   }
   
-  .features .features-items {
+  .projects .projects-items {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
   }
   
-  .features p {
+  .projects p {
     margin: 0;
     text-align: center;
   }
   
-  .features i {
+  .projects i {
     font-size: 3.75em;
     margin-bottom: 40px;
     text-align: center;
@@ -703,8 +696,8 @@
       font-size: 1.5em;
     }
   
-    /*Features*/
-    .features article {
+    /*projects*/
+    .projects article {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -712,11 +705,11 @@
       flex-basis: 50%;
     }
   
-    .features h2 {
+    .projects h2 {
       font-size: 2.25em;
     }
   
-    .features .features-item-description {
+    .projects .projects-item-description {
         width: 62%;
     }
   
@@ -895,18 +888,18 @@
     width: 30%;
    }
   
-   /*Features*/
-   .features h2 {
+   /*projects*/
+   .projects h2 {
       width: 90%;
       margin-top: 0;
    }
   
-   .features article {
+   .projects article {
     flex-basis: 33%;
     margin-bottom: 0;
    }
   
-   .features p {
+   .projects p {
     font-size: 1.125em;
    }
   
