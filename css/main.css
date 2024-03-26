@@ -240,7 +240,7 @@
   
   footer {
     flex-direction: column;
-    background-color: #202322;
+    background-color: #60bebd;
     color: #e2e3ed;
     text-align: center;
   }
@@ -299,7 +299,7 @@
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    background-color: white;
+    background-color: #fcb6b8;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -362,7 +362,7 @@
     width: 100%;
     padding: 20px 0;
     margin-top: 20px;
-    background-color: #2a423a;
+    background-color: #baddd6;
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 1.125em;
@@ -378,7 +378,7 @@
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    background-image: url(../img/rawpixel-800820-unsplash1.jpg);
+    background-color: #f8e5d7;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -416,7 +416,7 @@
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    background-color: #2a423a;
+    background-color: #baddd6;
     color: #ede3ed;
   }
   
@@ -441,7 +441,7 @@
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    background-color: #527158;
+    background-color: #60bebd;
     color: #e2e3ed;
   }
   
@@ -470,7 +470,7 @@
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    background-color: #2a423a;
+    background-color: #60bebd;
     color: #e2e3ed;
     font-weight: 300;
   }
