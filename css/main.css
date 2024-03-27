@@ -189,6 +189,8 @@
   h1  {
     text-align: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   
@@ -211,6 +213,10 @@
     width: 100%;
   }
 
+  .content-wrapper div {
+    margin-left: auto;
+    margin-right: auto;
+  }
   header h1 {
 
   }
@@ -349,7 +355,8 @@
     font-weight: 300;
     font-size: 1.125em;
     letter-spacing: 1px;
-    margin: 20p 0 10px 0;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   aside p {
@@ -445,6 +452,8 @@
     margin: 20px 0;
     font-weight: 300;
     font-size: 1.14em;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   /* -------------------- Mobile Styles - About Page ---------------------- */
