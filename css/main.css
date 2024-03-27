@@ -131,6 +131,10 @@
     color: white;
     text-wrap: nowrap;
   }
+
+  .contact-link a {
+    color: white;
+  }
    
   h1 {
     font-size: 4em
@@ -182,6 +186,10 @@
    background-size: cover;
   }
   
+  h1  {
+    text-align: center;
+    align-items: center;
+  }
   
   
   header figure {
@@ -201,6 +209,10 @@
     align-items: center;
     flex-flow: row wrap;
     width: 100%;
+  }
+
+  header h1 {
+
   }
   
   /* .header-divider {
@@ -234,7 +246,7 @@
     font-size: 1.125em;
   }
 
-  header .intro {
+  header .intro  {
     text-align: center;
   }
   
