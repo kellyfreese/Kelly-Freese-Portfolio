@@ -124,6 +124,10 @@
     text-decoration: none;
   }
 
+  a:hover {
+    color: #6a52ab;
+  }
+
   .contact-link {
     background-color: #351D77 ;
     padding: 10px, 10px;
@@ -132,8 +136,30 @@
     text-wrap: nowrap;
   }
 
+  .contact-link:hover {
+    background-color:#6a52ab;
+  }
+
   .contact-link a {
     color: white;
+  }
+
+  .toggle-button {
+    position: absolute;
+    top: .75em;
+    right: 1em;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 31px;
+    height:21px;
+  }
+
+  .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #351D77;
+    border-radius: 10px;
   }
    
   h1 {
@@ -312,6 +338,24 @@
   /* -------------------- Mobile Styles - Homepage ---------------------- */
   
   /* Hero Area */
+
+  .toggle-button {
+    display: flex;
+  }
+
+  header nav li {
+    display:none;
+  }
+
+  header nav ul{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  header nav ul li {
+    text-align: center;
+  }
+  
   
   .hero-area {
     display: flex;
@@ -654,6 +698,14 @@
   /*Tablet styles here*/
   
   /* General Styles */
+
+  .toggle-button {
+    display: none;
+  }
+
+  header nav li {
+    display:flex;
+  }
     .content-wrapper {
       max-width: 640px;
       margin: 100px 0;
@@ -876,6 +928,14 @@
   
   .content-wrapper {
    max-width: 960px;
+  }
+
+  .toggle-button {
+    display: none;
+  }
+
+  header nav li {
+    display: flex;
   }
    
   /*Hero*/
