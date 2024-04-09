@@ -1,6 +1,6 @@
-const toggleButton = document.getElementsByClassName('toggle-button')[0] 
-const ul = document.querySelector('ul')[0]
+const toggleButton = document.querySelector('.toggle-button')
+const nav = document.querySelector('.nav')
 
 toggleButton.addEventListener('click', () => {
-    ul.classList.toggle('active')
+    nav.classList.toggle('active')
 })

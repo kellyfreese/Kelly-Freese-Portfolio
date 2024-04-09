@@ -144,6 +144,7 @@
 
   .contact-link a {
     color: white;
+    text-align:center;
   }
 
   .toggle-button {
@@ -340,22 +341,28 @@
   
   /*Header*/
 
-  .toggle-button {
-    display: flex;
-  }
+  
 
   /* header nav li {
     display:flex;
   } */
 
+  .toggle-button {
+    display: flex;
+  }
+
+  .nav {
+    display: none;
+  }
+
   header nav ul {
-    display:flex;
+    /* display:none; */
     width: 100%;
     flex-direction: column;
     text-align: center;
   }
 
-  ul.active {
+  .nav.active {
     display: flex;
   }
 
@@ -703,18 +710,21 @@
   
   /* General Styles */
 
-  .toggle-button {
-    display: none;
-  }
+  
 
   header nav ul {
     display:flex;
     flex-direction: row;
   }
-    .content-wrapper {
+  .content-wrapper {
       max-width: 640px;
       margin: 100px 0;
-    }
+   }
+
+   .toggle-button {
+    display: none;
+  }
+
   
     /*header*/
     header {
@@ -935,9 +945,7 @@
    max-width: 960px;
   }
 
-  .toggle-button {
-    display: none;
-  }
+  
 
   header nav li {
     display: flex;
