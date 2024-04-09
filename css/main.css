@@ -134,6 +134,8 @@
     border-radius: 30px;
     color: white;
     text-wrap: nowrap;
+    width:fit-content;
+    text-align: center;
   }
 
   .contact-link:hover {
@@ -243,9 +245,7 @@
     margin-left: auto;
     margin-right: auto;
   }
-  header h1 {
-
-  }
+  
   
   /* .header-divider {
     height: 1px;
@@ -263,6 +263,7 @@
     font-size: 1.125em;
     font-weight: 700;
     text-transform: uppercase;
+    text-align: center;
   }
   
   header nav ul {
@@ -271,7 +272,7 @@
     width: 100%;
     padding: 0;
     margin-right: 30px;
-    
+    text-align:center;
   }
   
   header nav ul li {
@@ -337,25 +338,28 @@
   
   /* -------------------- Mobile Styles - Homepage ---------------------- */
   
-  /* Hero Area */
+  /*Header*/
 
   .toggle-button {
     display: flex;
   }
 
-  header nav li {
-    display:none;
-  }
+  /* header nav li {
+    display:flex;
+  } */
 
-  header nav ul{
+  header nav ul {
+    display:flex;
     width: 100%;
     flex-direction: column;
-  }
-
-  header nav ul li {
     text-align: center;
   }
-  
+
+  ul.active {
+    display: flex;
+  }
+
+  /* Hero Area */
   
   .hero-area {
     display: flex;
@@ -703,8 +707,9 @@
     display: none;
   }
 
-  header nav li {
+  header nav ul {
     display:flex;
+    flex-direction: row;
   }
     .content-wrapper {
       max-width: 640px;
