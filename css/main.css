@@ -198,6 +198,27 @@
     width: 90%;
     margin: 50px 50px;
   }
+
+  .hero-area ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .hero-area li {
+    background-color: #351D77 ;
+    padding: 10px, 10px;
+    margin: 10px;
+    border-radius: 30px;
+    color: #fcb6b8;
+    text-wrap: nowrap;
+    width:fit-content;
+    text-align: center;
+    align-items: center;
+    font-size: 1.5em;
+  }
   
   /* -------------------- Base Header - Footer Styles---------------------- */
   header,
@@ -950,9 +971,9 @@
   /*Homepage Styles*/
   
   /*Header*/
-  header img {
+  /* header img {
     width: 50%;
-  }
+  } */
   
   
   .content-wrapper {
