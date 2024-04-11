@@ -199,7 +199,7 @@
     margin: 50px 50px;
   }
 
-  .skills ul {
+  #skills ul {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -207,7 +207,7 @@
     padding: 20px;
   }
 
-  .skills li {
+  #skills li {
     background-color: #351D77 ;
     padding: 10px, 10px;
     margin: 10px;
@@ -393,7 +393,7 @@
 
   /* Skills */
   
-  .skills {
+  #skills {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -406,7 +406,7 @@
   
   
   
-  .skills h1 {
+  #skills h1 {
     font-size: 4em;
     font-family: 'Open Sans', sans-serif;
     color:#351D77;
@@ -795,11 +795,11 @@
   
   /*Skills*/
   
-  .skills h1 {
+  #skills h1 {
     font-size: 3em;
   }
   
-  .skills .content-wrapper {
+  #skills .content-wrapper {
     margin: 0; 
   }
   /* Aside */
@@ -990,10 +990,10 @@
    
   /*Skills*/
   
-  .skills {
+  #skills {
     min-height: 600px;
   }
-  .skills h1 {
+  #skills h1 {
     font-size: 3.75em;
     max-width: 70%;
   
