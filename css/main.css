@@ -509,8 +509,8 @@
     text-align: center;
   }
   
-  /* Reviews */
-  .reviews {
+  /* About */
+  #about {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -518,7 +518,7 @@
     color: #351D77;
   }
   
-  .reviews h2 {
+  #about h2 {
     margin-bottom: 20px;
     font-weight: 300;
     font-size: 1.875em;
@@ -526,7 +526,7 @@
     line-height: 1;
   }
   
-  .reviews h3 {
+  #about h3 {
     width: 55%;
     margin: 20px 0;
     font-weight: 300;
@@ -839,21 +839,21 @@
         width: 62%;
     }
   
-    /* Reviews */
-    .reviews article {
+    /* About */
+    #about article {
       display: flex;
       justify-content: center;
     }
   
-    .reviews h2 {
+    #about h2 {
       font-size: 2.25em;
     }
     
-    .reviews article div {
+    #about article div {
       width: 49%;       
     }
   
-    .reviews h3 {
+    #about h3 {
       min-width: 100%;
       font-size: 1.5em;
       margin-bottom: 0;
@@ -1034,27 +1034,27 @@
     font-size: 1.125em;
    }
   
-   /*Reviews*/
+   /*About*/
   
-   .reviews article div {
+   #about article div {
     width: 42%;
     margin: 0;
    }
   
-   .reviews article {
+   #about article {
     justify-content:left;
     margin-top: 25px;
    }
   
-   .reviews div {
+   #about div {
     padding-left: 15px;
    }
   
-   .reviews img {
+   #about img {
     min-width: 455px;
    }
 
-   .reviews h2 {
+   #about h2 {
     margin-top: 120px;
     margin-bottom: 20px;
     font-weight: 300;
@@ -1063,11 +1063,11 @@
     line-height: 1;
   }
   
-   .reviews h3 {
+   #about h3 {
     font-size: 1.875em;
    }
   
-   .reviews p {
+   #about p {
     font-size: 1.125em;
    }
   
