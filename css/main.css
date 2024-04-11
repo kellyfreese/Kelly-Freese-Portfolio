@@ -199,7 +199,7 @@
     margin: 50px 50px;
   }
 
-  .hero-area ul {
+  .skills ul {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -207,7 +207,7 @@
     padding: 20px;
   }
 
-  .hero-area li {
+  .skills li {
     background-color: #351D77 ;
     padding: 10px, 10px;
     margin: 10px;
@@ -391,9 +391,9 @@
     display: flex;
   }
 
-  /* Hero Area */
+  /* Skills */
   
-  .hero-area {
+  .skills {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -406,7 +406,7 @@
   
   
   
-  .hero-area h1 {
+  .skills h1 {
     font-size: 4em;
     font-family: 'Open Sans', sans-serif;
     color:#351D77;
@@ -414,7 +414,7 @@
     
   }
   
-  /* Aside */
+  /* Aside
   
   aside {
     display: flex;
@@ -423,13 +423,13 @@
     flex-flow: row wrap;
     background-color: #fcb6b8;
     color:#351D77
-  }
+  } */
   
-  aside .content-wrapper {
+   /* .content-wrapper {
     margin: 0 0 50px 0;
-  }
+  } */
   
-  aside h3 {
+  /* aside h3 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 1.125em;
@@ -454,7 +454,7 @@
     color:#351D77;
     font-style: italic;
     padding: 1em;
-  }
+  }aside */
    
   input[type=button] {
     width: 100%;
@@ -793,13 +793,13 @@
 
     
   
-  /*Hero Area*/
+  /*Skills*/
   
-  .hero-area h1 {
+  .skills h1 {
     font-size: 3em;
   }
   
-  .hero-area .content-wrapper {
+  .skills .content-wrapper {
     margin: 0; 
   }
   /* Aside */
@@ -988,12 +988,12 @@
     display: flex;
   }
    
-  /*Hero*/
+  /*Skills*/
   
-  .hero-area {
+  .skills {
     min-height: 600px;
   }
-  .hero-area h1 {
+  .skills h1 {
     font-size: 3.75em;
     max-width: 70%;
   
