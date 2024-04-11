@@ -472,7 +472,7 @@
   
   /* projects */
   
-  .projects {
+  #projects {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -482,28 +482,28 @@
     background-position: center;
   }
   
-  .projects h2 { 
+  #projects h2 { 
     margin-bottom: 0px;
   }
   
-  .projects article {
+  #projects article {
     width: 63%;
     margin: 30px 0;
   }
   
-  .projects .projects-items {
+  #projects .projects-items {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
   }
   
-  .projects p {
+  #projects p {
     margin: 0;
     text-align: center;
   }
   
-  .projects img {
+  #projects img {
     font-size: 3.75em;
     /* margin-bottom: 40px; */
     text-align: center;
@@ -823,7 +823,7 @@
     }
   
     /*projects*/
-    .projects article {
+    #projects article {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -831,11 +831,11 @@
       flex-basis: 50%;
     }
   
-    .projects h2 {
+    #projects h2 {
       font-size: 2.25em;
     }
   
-    .projects .projects-item-description {
+    #projects .projects-item-description {
         width: 62%;
     }
   
@@ -1020,17 +1020,17 @@
    }
   
    /*projects*/
-   .projects h2 {
+   #projects h2 {
       width: 90%;
       margin-top: 0;
    }
   
-   .projects article {
+   #projects article {
     flex-basis: 33%;
     margin-bottom: 0;
    }
   
-   .projects p {
+   #projects p {
     font-size: 1.125em;
    }
   
