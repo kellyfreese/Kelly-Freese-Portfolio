@@ -130,7 +130,7 @@
 
   .contact-link {
     background-color: #351D77 ;
-    padding: 10px, 10px;
+    padding: 10px 10px;
     border-radius: 30px;
     color: white;
     text-wrap: nowrap;
@@ -209,7 +209,7 @@
 
   #skills li {
     background-color: #351D77 ;
-    padding: 10px, 10px;
+    padding: 10px 10px;
     margin: 10px;
     border-radius: 30px;
     color: #fcb6b8;
@@ -622,7 +622,7 @@
   
   .faq h3 {
     font-weight: 300;
-    font-size: 1.125;
+    font-size: 1.125em;
   }
   
   .faq p {
@@ -800,7 +800,7 @@
   }
   
   #skills .content-wrapper {
-    margin: 30px, 0; 
+    margin: 30px 0; 
   }
   /* Aside */
   
@@ -915,7 +915,7 @@
   .mission-content {
       display: flex;
       justify-content: space-between;
-      align-items: column;
+      align-items: center;
       padding: 0;
   }
   
@@ -1011,7 +1011,7 @@
     font-size: 1.125em;
   }
    aside .content-wrapper {
-    flex-wrap: row wrap;
+    flex-wrap: wrap;
     justify-content:space-around;
    }
   
@@ -1056,7 +1056,7 @@
    }
 
    #about h2 {
-    margin-top: 120px;
+    margin-top: 100px;
     margin-bottom: 20px;
     font-weight: 300;
     font-size: 1.875em;
