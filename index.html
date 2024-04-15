@@ -5,6 +5,13 @@
   <meta charset="utf-8">
   <title>Kelly Freese | Portfolio</title>
   <link rel="shortcut icon" type="image/x-icon" href="img/star-favicon.png"> 
+  <style>
+     @media (prefers-reduced-motion: no-preference) {
+       html {
+        scroll-behavior: smooth;  
+      }
+    }
+  </style>
   
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -58,7 +65,7 @@
         </ul>
       </nav>
       <div class="intro">
-        <h1>Hi, I'm Kelly..</h1>
+        <h1>Hi, I'm Kelly Freese..</h1>
         <h2>..and I'm a front-end developer who loves playing with code. <br> Let's have some fun together!</h2>
     </div>
     </div>
@@ -72,6 +79,17 @@
       
       <div class="projects-items">
         <article>
+          <h2>Quotivation</h2>
+          <p class="project-thumbnail">
+            <figure>
+              <a href="https://kellysquotivations.netlify.app/" target="_blank">
+               <img src="img/Quotivation.png" alt="Quote App Photo">
+              </a>
+            </figure>
+          </p>
+          <p class="projects-item-description">Browse and select your favorite quotes to save for later using this app powered by React Hooks.  This app  retrieves quotes from a public API, then stores selections to local storage so they will be there when you return.</p>
+        </article>
+        <article>
           <h2>Gentle Reminders</h2>
           <p class="project-thumbnail">
             <figure>
@@ -84,6 +102,7 @@
             
           </p>
         </article>
+        
         <article>
           <h2>Harry Potter Guessing Game</h2>
           <p class="project-thumbnail">
@@ -94,17 +113,6 @@
             </figure>
           </p>
           <p class="projects-item-description">Have fun and test your knowledge of the Wizarding World with this game created using JavaScript, HTML and CSS.  A custom Hogwarts themed word list is accessed via GitHub gists.</p>
-        </article>
-        <article>
-          <h2>Quotivation</h2>
-          <p class="project-thumbnail">
-            <figure>
-              <a href="https://kellysquotivations.netlify.app/" target="_blank">
-               <img src="img/Quotivation.png" alt="Quote App Photo">
-              </a>
-            </figure>
-          </p>
-          <p class="projects-item-description">Browse and select your favorite quotes to save for later using this app powered by React Hooks.  This app  retrieves quotes from a public API, then stores selections to local storage so they will be there when you return.</p>
         </article>
       </div>
       </div>
@@ -151,6 +159,18 @@
               <label>Git/GitHub</label>
             </div>
           </li>
+          <li>
+            <div>
+              <i class="fa-solid fa-arrows-left-right"></i>
+              <label>APIs</label>
+            </div>
+          </li>
+          <li>
+            <div>
+              <i class="fa-solid fa-boxes-stacked"></i>
+              <label>Flexbox</label>
+            </div>
+          </li>
         </ul>
       </div>
     </section>
@@ -181,8 +201,8 @@
           <h1>Contact</h1>
           <address>
             <p>
-              949-274-2341<br>
-              kellyraefreese@gmail.com
+              <a href="tel:+1234567890">949-274-2341</a>
+              <a href="mailto:youremail@example.com">kellyraefreese@gmail.com</a>
             </p>
           </address>
         </div>
