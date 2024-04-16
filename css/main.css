@@ -889,7 +889,7 @@
   
     footer .social p{
       justify-content: space-between;
-      padding: 20px;
+      padding:  0 20px 20px 20px;
     }
   
     footer .contact {
