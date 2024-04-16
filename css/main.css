@@ -997,7 +997,7 @@
   /*Skills*/
   
   #skills {
-    min-height: 600px;
+    /* min-height: 600px; */
   }
   #skills h1 {
     font-size: 3.75em;
