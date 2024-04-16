@@ -880,7 +880,7 @@
     .footer-content {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      /* align-items: center; */
     }
   
     footer h4 {
@@ -896,9 +896,9 @@
         margin-bottom: 0;
     }
   
-    footer .contact address {
+    /* footer .contact address {
       padding: 20px;
-    }
+    } */
   
     footer .copyright {
         width: 100%;
