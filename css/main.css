@@ -319,6 +319,7 @@
     background-color: #60bebd;
     color: #351D77;
     text-align: center;
+    line-height: 2;
   }
   
   footer h4 {
@@ -329,6 +330,7 @@
     margin: 0;
     text-align: center;
     font-size: 18px;
+    line-height: 2;
   }
   
   footer .content-wrapper {
