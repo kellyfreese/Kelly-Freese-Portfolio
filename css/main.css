@@ -445,6 +445,18 @@
   #projects h2 { 
     margin-bottom: 0px;
   }
+
+  .button-link {
+    margin-top: 10px;
+    display: inline-block;
+    width: 325px;
+    padding: 10px 20px;
+    background-color:#351D77;
+    color:white;
+    text-decoration: none;
+    border-radius: 30px;
+    text-align:center;
+  }
   
   #projects article {
     width: 63%;
