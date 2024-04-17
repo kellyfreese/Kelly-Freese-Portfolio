@@ -461,13 +461,15 @@
   #projects article {
     width: 63%;
     margin: 30px 0;
+    vertical-align: top;
   }
   
   #projects .projects-items {
     display: flex;
-    justify-content: center;
+    justify-content: top;
     align-items: center;
     flex-flow: row wrap;
+    vertical-align: top;
   }
   
   #projects p {
@@ -477,7 +479,12 @@
   
   #projects img {
     font-size: 3.75em;
-    text-align: center;
+    align-items: center;
+    width: 325px;
+  }
+
+  .projects-item-description {
+    padding: 20px 20px 0px 20px;
   }
   
   /* About */
@@ -507,7 +514,7 @@
   }
   
   /* -------------------- Mobile Styles - About Page ---------------------- */
-  .mission {
+  /* .mission {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -535,7 +542,7 @@
     width: 100%;
     height: 100%;
   }
-  
+   */
   .contact-section {
     display: flex;
     justify-content: center;
@@ -796,10 +803,11 @@
     /*projects*/
     #projects article {
       display: flex;
-      justify-content: center;
+      justify-content: top;
       align-items: center;
       flex-flow: column wrap;
       flex-basis: 50%;
+      vertical-align: top;
     }
   
     #projects h2 {
@@ -832,7 +840,7 @@
     }
   
     figure {
-      width: 40%;
+      /* width: 40%; */
       margin: 20px 20px 20px 20px;
     }
     
@@ -995,7 +1003,7 @@
    }
   
    #projects article {
-    flex-basis: 33%;
+    flex-basis: 50%;
     margin-bottom: 0;
    }
   
@@ -1059,7 +1067,7 @@
    }
   
     figure  {
-    width: 50%;
+    /* width: 50%; */
    }
   
    .footer-content {
