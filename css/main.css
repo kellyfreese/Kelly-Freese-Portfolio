@@ -131,12 +131,13 @@ a:hover {
 
 .contact-link {
   background-color: #351D77;
-  padding: 10px 10px;
+  padding: 10px 10px 10px 10px;
   border-radius: 30px;
   color: white;
   text-wrap: nowrap;
   width: fit-content;
   text-align: center;
+  margin-left: 10px;
 }
 
 .contact-link:hover {
