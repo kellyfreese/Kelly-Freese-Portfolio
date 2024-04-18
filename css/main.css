@@ -372,9 +372,9 @@
 
   
 
-  /* header nav li {
+  header nav li {
     display:flex;
-  } */
+  }
 
   .toggle-button {
     display: flex;
@@ -466,7 +466,6 @@
   
   #projects .projects-items {
     display: flex;
-    justify-content: top;
     align-items: center;
     flex-flow: row wrap;
     vertical-align: top;
@@ -651,7 +650,6 @@
     position: absolute;
     white-space: nowrap;
     width: 1px;
-    /* 1 */
   }
   
   /*
@@ -803,7 +801,6 @@
     /*projects*/
     #projects article {
       display: flex;
-      justify-content: top;
       align-items: center;
       flex-flow: column wrap;
       flex-basis: 100%;
