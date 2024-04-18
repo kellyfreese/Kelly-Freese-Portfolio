@@ -11,13 +11,13 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-   html {
-    color: #351D77;
-    font-size: 1em;
-    line-height: 1.4;
-  }
-  
-  /*
+html {
+  color: #351D77;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
    * Remove text-shadow in selection highlight:
    * https://twitter.com/miketaylr/status/12228805301
    *
@@ -26,516 +26,516 @@
    *
    * Customize the background color to match your design.
    */
-  
-  ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-  }
-  
-  ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-  }
-  
-  /*
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
    * A better looking default horizontal rule
    */
-  
-  hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-  }
-  
-  /*
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
    * Remove the gap between audio, canvas, iframes,
    * images, videos and the bottom of their containers:
    * https://github.com/h5bp/html5-boilerplate/issues/440
    */
-  
-  audio,
-  canvas,
-  iframe,
-  img,
-  svg,
-  video {
-    vertical-align: middle;
-  }
-  
-  /*
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
    * Remove default fieldset styles.
    */
-  
-  fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /*
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
    * Allow only vertical resizing of textareas.
    */
-  
-  textarea {
-    resize: vertical;
-  }
-  
-  /* ==========================================================================
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
      Author's custom styles
      ========================================================================== */
-  /* General Styles */
-   
-  html {
-      font-size: 16px;
-  }
-  
-  img { 
-    width: 100%;
-  }
-  
-  figure {
-    margin:0;
-  }
+/* General Styles */
 
-  
-  body {
-   font-family: 'Open Sans', sans-serif;
-   font-size: 1em;
-   text-align: center;
-   color: #351D77;
-  }
-   
-  ul, 
-  ol {
-   list-style-type:none;
-   display: inline;
+html {
+  font-size: 16px;
+}
 
-  }
+img {
+  width: 100%;
+}
 
-  li {
-    padding: 10px;
-  }
+figure {
+  margin: 0;
+}
 
-  a {
-    color: #351D77;
-    text-decoration: none;
-  }
 
-  a:hover {
-    color: #6a52ab;
-  }
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: center;
+  color: #351D77;
+}
 
-  .contact-link {
-    background-color: #351D77 ;
-    padding: 10px 10px;
-    border-radius: 30px;
-    color: white;
-    text-wrap: nowrap;
-    width:fit-content;
-    text-align: center;
-  }
+ul,
+ol {
+  list-style-type: none;
+  display: inline;
 
-  .contact-link:hover {
-    background-color:#6a52ab;
-  }
+}
 
-  .contact-link a {
-    color: white;
-    text-align:center;
-  }
+li {
+  padding: 10px;
+}
 
-  .toggle-button {
-    position: absolute;
-    top: .75em;
-    right: 1em;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 31px;
-    height:21px;
-  }
+a {
+  color: #351D77;
+  text-decoration: none;
+}
 
-  .toggle-button .bar {
-    height: 3px;
-    width: 100%;
-    background-color: #351D77;
-    border-radius: 10px;
-  }
-   
-  h1 {
-    font-size: 4em
-  }
-   
-  h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-    font-size: 1.875em;
-  }
-   
-  h3, 
-  h4 {
-    font-family: 'Open Sans', sans-serif;
-    margin: 20px 0;
-    font-size: 1.125em;
-    font-weight:500;
-  }
-   
-  p {
-      font-size: .875em;
-    line-height: 1.285;
-  }
-  
-   
-  address {
-   font-family: 'Open Sans', sans-serif;
-   font-style: normal;
-  }
-  
-  .content-wrapper {
-    width: 90%;
-    margin: 50px 50px;
-  }
+a:hover {
+  color: #6a52ab;
+}
 
-  #skills ul {
-    display: flex;
-    align-items: center;
-    margin: 10px;
-    padding: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+.contact-link {
+  background-color: #351D77;
+  padding: 10px 10px;
+  border-radius: 30px;
+  color: white;
+  text-wrap: nowrap;
+  width: fit-content;
+  text-align: center;
+}
 
-  #skills li {
-    background-color: #351D77 ;
-    padding: 10px 10px;
-    margin: 10px;
-    border-radius: 30px;
-    color: #fcb6b8;
-    text-wrap: nowrap;
-    width:fit-content;
-    text-align: center;
-    align-items: center;
-    font-size: 1.5em;
-  }
+.contact-link:hover {
+  background-color: #6a52ab;
+}
 
-  
+.contact-link a {
+  color: white;
+  text-align: center;
+}
 
-  
-  
-  /* -------------------- Base Header - Footer Styles---------------------- */
-  header,
-  footer {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-  }
-  
-  header {
-   padding: 15px 15px;
-   background-image: url(../img/codioful-formerly-gradienta-7brhZmwXn08-unsplash.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-  }
-  
-  h1  {
-    text-align: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+.toggle-button {
+  position: absolute;
+  top: .75em;
+  right: 1em;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 31px;
+  height: 21px;
+}
 
-  }
-  
-  
-  header figure {
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: wrap;
-    margin: 0;
-    padding-top: 15px;
-  }
-  
-  header .content-wrapper {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    flex-direction: column;
-    width: 100%;
-  }
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #351D77;
+  border-radius: 10px;
+}
 
-  .content-wrapper div {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  
-  header nav {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: row wrap;
-    width: 100%;
-    font-size: 1.125em;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    align-items:flex-end;
-  }
-  
-  header nav ul {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    padding: 0;
-    margin-right: 30px;
-    text-align:center;
-  }
-  
-  header nav ul li {
-    font-size: 1.125em;
-  }
+h1 {
+  font-size: 4em
+}
 
-  header .intro  {
-    text-align: center;
-    width: 100%;
-  }
-  
-  footer {
-    flex-direction: column;
-    background-color: #60bebd;
-    color: #351D77;
-    text-align: center;
-    line-height: 2;
-  }
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1.875em;
+}
 
-  footer div {
-    text-wrap: nowrap;
-  }
-  
-  footer h4 {
-    text-align: center;
-  }
-  
-  footer p {
-    margin: 0;
-    text-align: center;
-    font-size: 18px;
-    line-height: 2;
-  }
-  
-  footer .content-wrapper {
-    width: 55%;
-    margin: 50px 0;
-  }
-  
-  
-  footer .social-icons {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  footer .social-icons p {
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-  }
-  
-  footer .social-icons p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-  }
-  
-  footer .social-icons i {
-    font-size: 2.75em;
-  }
-  
-  footer .copyright  {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow:wrap;
-    margin:20px 0;
-  }
-  
-  /* -------------------- Mobile Styles - Homepage ---------------------- */
-  
-  /*Header*/
+h3,
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  margin: 20px 0;
+  font-size: 1.125em;
+  font-weight: 500;
+}
 
-  
+p {
+  font-size: .875em;
+  line-height: 1.285;
+}
 
-  header nav li {
-    display:flex;
-  }
 
-  .toggle-button {
-    display: flex;
-  }
+address {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+}
 
-  header nav ul {
-    display:none;
-    width: 100%;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-  }
+.content-wrapper {
+  width: 90%;
+  margin: 50px 50px;
+}
 
-  header nav ul.active {
-    display: flex;
-  }
+#skills ul {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-  /* Skills */
-  
-  #skills {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    background-color: #fcb6b8;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 500px;
-  }
-  
-  
-  
-  #skills h1 {
-    font-size: 4em;
-    font-family: 'Open Sans', sans-serif;
-    color:#351D77;
-    line-height: 1.2; 
-    
-  }
-  
-  /* projects */
-  
-  #projects {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    background-color: #f8e5d7;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  #projects h2 { 
-    margin-bottom: 0px;
-  }
+#skills li {
+  background-color: #351D77;
+  padding: 10px 10px;
+  margin: 10px;
+  border-radius: 30px;
+  color: #fcb6b8;
+  text-wrap: nowrap;
+  width: fit-content;
+  text-align: center;
+  align-items: center;
+  font-size: 1.5em;
+}
 
-  .button-link {
-    margin-top: 10px;
-    display: inline-block;
-    width: 325px;
-    padding: 10px 20px;
-    background-color:#351D77;
-    color:white;
-    text-decoration: none;
-    border-radius: 30px;
-    text-align:center;
-  }
-  
-  #projects article {
-    width: 100%;
-    margin: 30px 0 30px 0;
-    vertical-align: top;
-  }
-  
-  #projects .projects-items {
-    display: flex;
-    align-items: center;
-    flex-flow: row wrap;
-    vertical-align: top;
-  }
-  
-  #projects p {
-    margin: 0;
-    text-align: center;
-  }
-  
-  #projects img {
-    font-size: 3.75em;
-    align-items: center;
-    width: 325px;
-  }
 
-  .projects-item-description {
-    padding: 20px 20px 0px 20px;
-  }
-  
-  /* About */
-  #about {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    background-color: #baddd6;
-    color: #351D77;
-  }
-  
-  #about h2 {
-    margin-bottom: 20px;
-    font-weight: 300;
-    font-size: 1.875em;
-    letter-spacing: .5px;
-    line-height: 1;
-  }
-  
-  #about h3 {
-    width: 55%;
-    margin: 20px 0;
-    font-weight: 300;
-    font-size: 1.14em;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  /* -------------------- Mobile Styles - About Page ---------------------- */
-  
-  .contact-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    background-color: #60bebd;
-    color: #e2e3ed;
-    font-weight: 300;
-  }
-  
-  .contact-section h2 {
-    font-weight: 300;
-    margin-top: 0;
-  }
-  
-  .contact-content p {
-    margin: 0;
-  }
-  
-  footer .content-wrapper {
-    margin: 20px 0;
-  }
-  
-  /* ==========================================================================
+
+
+
+/* -------------------- Base Header - Footer Styles---------------------- */
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header {
+  padding: 15px 15px;
+  background-image: url(../img/codioful-formerly-gradienta-7brhZmwXn08-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  margin: 0;
+  padding-top: 15px;
+}
+
+header .content-wrapper {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  flex-direction: column;
+  width: 100%;
+}
+
+.content-wrapper div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  width: 100%;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  align-items: flex-end;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0;
+  margin-right: 30px;
+  text-align: center;
+}
+
+header nav ul li {
+  font-size: 1.125em;
+}
+
+header .intro {
+  text-align: center;
+  width: 100%;
+}
+
+footer {
+  flex-direction: column;
+  background-color: #60bebd;
+  color: #351D77;
+  text-align: center;
+  line-height: 2;
+}
+
+footer div {
+  text-wrap: nowrap;
+}
+
+footer h4 {
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  text-align: center;
+  font-size: 18px;
+  line-height: 2;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+footer .social-icons i {
+  font-size: 2.75em;
+}
+
+footer .copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  margin: 20px 0;
+}
+
+/* -------------------- Mobile Styles - Homepage ---------------------- */
+
+/*Header*/
+
+
+
+header nav li {
+  display: flex;
+}
+
+.toggle-button {
+  display: flex;
+}
+
+header nav ul {
+  display: none;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+header nav ul.active {
+  display: flex;
+}
+
+/* Skills */
+
+#skills {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  background-color: #fcb6b8;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 500px;
+}
+
+
+
+#skills h1 {
+  font-size: 4em;
+  font-family: 'Open Sans', sans-serif;
+  color: #351D77;
+  line-height: 1.2;
+
+}
+
+/* projects */
+
+#projects {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  background-color: #f8e5d7;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#projects h2 {
+  margin-bottom: 0px;
+}
+
+.button-link {
+  margin-top: 10px;
+  display: inline-block;
+  width: 325px;
+  padding: 10px 20px;
+  background-color: #351D77;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  text-align: center;
+}
+
+#projects article {
+  width: 100%;
+  margin: 30px 0 30px 0;
+  vertical-align: top;
+}
+
+#projects .projects-items {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  vertical-align: top;
+}
+
+#projects p {
+  margin: 0;
+  text-align: center;
+}
+
+#projects img {
+  font-size: 3.75em;
+  align-items: center;
+  width: 350px;
+}
+
+.projects-item-description {
+  padding: 20px 20px 0px 20px;
+}
+
+/* About */
+#about {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  background-color: #baddd6;
+  color: #351D77;
+}
+
+#about h2 {
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 1.875em;
+  letter-spacing: .5px;
+  line-height: 1;
+}
+
+#about h3 {
+  width: 55%;
+  margin: 20px 0;
+  font-weight: 300;
+  font-size: 1.14em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* -------------------- Mobile Styles - About Page ---------------------- */
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #60bebd;
+  color: #e2e3ed;
+  font-weight: 300;
+}
+
+.contact-section h2 {
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.contact-content p {
+  margin: 0;
+}
+
+footer .content-wrapper {
+  margin: 20px 0;
+}
+
+/* ==========================================================================
      Helper classes
      ========================================================================== */
-  
-  /*
+
+/*
    * Hide visually and from screen readers
    */
-  
-  .hidden,
-  [hidden] {
-    display: none !important;
-  }
-  
-  /*
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+/*
    * Hide only visually, but have it available for screen readers:
    * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
    *
@@ -543,45 +543,45 @@
    *    causes content to wrap 1 word per line:
    *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
    */
-  
-  .sr-only {
-    border: 0;
-    clip: rect(0, 0, 0, 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-  }
-  
-  /*
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/*
    * Extends the .sr-only class to allow the element
    * to be focusable when navigated to via the keyboard:
    * https://www.drupal.org/node/897638
    */
-  
-  .sr-only.focusable:active,
-  .sr-only.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    white-space: inherit;
-    width: auto;
-  }
-  
-  /*
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
    * Hide visually and from screen readers, but maintain layout
    */
-  
-  .invisible {
-    visibility: hidden;
-  }
-  
-  /*
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
    * Clearfix: contain floats
    *
    * For modern browsers
@@ -592,34 +592,34 @@
    * 2. The use of `table` rather than `block` is only necessary if using
    *    `:before` to contain the top-margins of child elements.
    */
-  
-  .clearfix::before,
-  .clearfix::after {
-    content: " ";
-    display: table;
-  }
-  
-  .clearfix::after {
-    clear: both;
-  }
-  
-  /* ==========================================================================
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* ==========================================================================
      EXAMPLE Media Queries for Responsive Design.
      These examples override the primary ('mobile first') styles.
      Modify as content requires.
      ========================================================================== */
-  
-  @media only screen and (min-width: 768px) {
+
+@media only screen and (min-width: 768px) {
   /*Tablet styles here*/
-  
+
   /* General Styles */
 
-  
+
 
   header nav ul {
-    display:flex;
+    display: flex;
     flex-direction: row;
-    align-items:center;
+    align-items: center;
   }
 
   .nav {
@@ -627,217 +627,217 @@
   }
 
   .content-wrapper {
-      max-width: 640px;
-      margin: 30px 0;
-   }
+    max-width: 640px;
+    margin: 30px 0;
+  }
 
-   .toggle-button {
+  .toggle-button {
     display: none;
   }
 
-  
-    /*header*/
-    header {
-      justify-content: space-around;
-      padding: 33px 0;
-    }
-  
-    header .content-wrapper {
-      width: 100%;
-      justify-content: space-between;
-    }
-  
-    header nav {
-      width: 100%;
-      display: flex;
-      align-items: end;
-    }
-  
-    header nav ul {
-      justify-content:end;
-    }
 
-    header nav ul li a {
-      display: flex;
-      align-items: end;
-    }
+  /*header*/
+  header {
+    justify-content: space-around;
+    padding: 33px 0;
+  }
 
-  
-    .header-divider {
-      display: none;
-    }
+  header .content-wrapper {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  header nav {
+    width: 100%;
+    display: flex;
+    align-items: end;
+  }
+
+  header nav ul {
+    justify-content: end;
+  }
+
+  header nav ul li a {
+    display: flex;
+    align-items: end;
+  }
+
+
+  .header-divider {
+    display: none;
+  }
 
   /*Skills*/
-  
+
   #skills h1 {
     font-size: 3em;
   }
-  
+
   #skills .content-wrapper {
-    margin: 30px 0; 
+    margin: 30px 0;
   }
-  
 
-    /*Projects*/
-    #projects article {
-      display: flex;
-      align-items: center;
-      flex-flow: column wrap;
-      flex-basis: 100%;
-      vertical-align: top;
-    }
-  
-    #projects h2 {
-      font-size: 2.25em;
-    }
-  
-    #projects .projects-item-description {
-        width: 62%;
-    }
-  
-    /* About */
-    #about article {
-      display: flex;
-      justify-content: center;
-    }
-  
-    #about h2 {
-      font-size: 2.25em;
-    }
-    
-    #about article div {
-      width: 100%;       
-    }
-  
-    #about h3 {
-      min-width: 100%;
-      font-size: 1.5em;
-      margin-bottom: 0;
-      margin-top: 17px;
-    }
-  
-    figure {
-      /* width: 40%; */
-      margin: 20px 20px 20px 20px;
-    }
-    
-  
-    /* Footer */
-    footer .content-wrapper {
-        width: 65%;
-        margin: 100px 0;
-    }
 
-    
-    
-    .footer-content {
-      display: flex;
-      justify-content: space-between;
-      /* align-items: center; */
-    }
-  
-    footer h4 {
-      font-size: 1.5em;
-    }
-  
-    footer .social p{
-      justify-content: space-between;
-      padding:  0 20px 20px 20px;
-    }
-  
-    footer .contact {
-        margin-bottom: 0;
-    }
-  
-    
-  
-    footer .copyright {
-        width: 100%;
-    }
-  
- 
-   
+  /*Projects*/
+  #projects article {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    flex-basis: 100%;
+    vertical-align: top;
+  }
+
+  #projects h2 {
+    font-size: 2.25em;
+  }
+
+  #projects .projects-item-description {
+    width: 62%;
+  }
+
+  /* About */
+  #about article {
+    display: flex;
+    justify-content: center;
+  }
+
+  #about h2 {
+    font-size: 2.25em;
+  }
+
+  #about article div {
+    width: 100%;
+  }
+
+  #about h3 {
+    min-width: 100%;
+    font-size: 1.5em;
+    margin-bottom: 0;
+    margin-top: 17px;
+  }
+
+  figure {
+    margin: 20px 20px 20px 20px;
+  }
+
+
+  /* Footer */
+  footer .content-wrapper {
+    width: 65%;
+    margin: 100px 0;
+  }
+
+
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+  }
+
+  footer h4 {
+    font-size: 1.5em;
+  }
+
+  footer .social p {
+    justify-content: space-between;
+    padding: 0 20px 20px 20px;
+  }
+
+  footer .contact {
+    margin-bottom: 0;
+  }
+
+
+
+  footer .copyright {
+    width: 100%;
+  }
+
+
+
   header figure {
     max-width: 40%;
   }
-  
-  
+
+
   .contact-section .content-wrapper h2 {
-      width: 80%;
-      font-size: 3em;
+    width: 80%;
+    font-size: 3em;
   }
-  
+
   .contact-content {
-      display: flex;
-      justify-content:space-between;
-      align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
   }
-  
+
   .contact-content h4 {
     font-size: 1.5em;
   }
-  
-  }
-  
-  /*==================================================================================
+
+}
+
+/*==================================================================================
   Desktop Styles Here 
   ==================================================================================*/
-  @media only screen and (min-width: 1200px) {
-  
+@media only screen and (min-width: 1200px) {
+
   /*Homepage Styles*/
 
-  
+
   .content-wrapper {
-   max-width: 1200px;
+    max-width: 1200px;
   }
 
   header nav li {
     display: flex;
   }
-   
+
   /*Skills*/
-  
+
   #skills h1 {
     font-size: 3.75em;
     max-width: 70%;
-  
+
   }
-  
-   /*Projects*/
-   #projects h2 {
-      width: 90%;
-      margin-top: 0;
-   }
-  
-   #projects article {
+
+  /*Projects*/
+  #projects h2 {
+    width: 90%;
+    margin-top: 0;
+  }
+
+  #projects article {
     flex-basis: 50%;
-   }
-  
-   #projects p {
+  }
+
+  #projects p {
     font-size: 1.125em;
-   }
-  
-   /*About*/
-  
-   #about article div {
+  }
+
+  /*About*/
+
+  #about article div {
     width: 42%;
     margin: 0;
-   }
-  
-   #about article {
-    justify-content:left;
-    margin-top: 25px;
-   }
-  
-   #about div {
-    padding-left: 15px;
-   }
-  
-   #about img {
-    min-width: 455px;
-   }
+  }
 
-   #about h2 {
+  #about article {
+    justify-content: left;
+    margin-top: 25px;
+  }
+
+  #about div {
+    padding-left: 15px;
+  }
+
+  #about img {
+    min-width: 455px;
+    max-width: 500px;
+  }
+
+  #about h2 {
     margin-top: 100px;
     margin-bottom: 20px;
     font-weight: 300;
@@ -845,123 +845,123 @@
     letter-spacing: .5px;
     line-height: 1;
   }
-  
-   #about h3 {
+
+  #about h3 {
     font-size: 1.875em;
-   }
-  
-   #about p {
+  }
+
+  #about p {
     font-size: 1.125em;
-   }
-  
+  }
+
   footer {
     padding: 0;
   }
-  
+
   footer .copyright {
     padding: 0;
   }
-  
-   footer .content-wrapper {
+
+  footer .content-wrapper {
     width: 80%;
     margin: 50px 0;
-   }
+  }
 
-   footer h1 {
+  footer h1 {
     margin: 0;
     width: 100%;
-   }
-  
-   .footer-content {
+  }
+
+  .footer-content {
     justify-content: center;
-   }
-  
-   footer div {
+  }
+
+  footer div {
     padding: 0 25px 0 25px;
     white-space: nowrap;
-   }
-  
   }
-  @media print,
-    (-webkit-min-device-pixel-ratio: 1.25),
-    (min-resolution: 1.25dppx),
-    (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-  }
-  
-  /* ==========================================================================
+
+}
+
+@media print,
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
      Print styles.
      Inlined to avoid the additional HTTP request:
      https://www.phpied.com/delay-loading-your-print-css/
      ========================================================================== */
-  
-  @media print {
-    *,
-    *::before,
-    *::after {
-      background: #fff !important;
-      color: #000 !important;
-      /* Black prints faster */
-      box-shadow: none !important;
-      text-shadow: none !important;
-    }
-  
-    a,
-    a:visited {
-      text-decoration: underline;
-    }
-  
-    a[href]::after {
-      content: " (" attr(href) ")";
-    }
-  
-    abbr[title]::after {
-      content: " (" attr(title) ")";
-    }
-  
-    /*
+
+@media print {
+
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-    a[href^="#"]::after,
-    a[href^="javascript:"]::after {
-      content: "";
-    }
-  
-    pre {
-      white-space: pre-wrap !important;
-    }
-  
-    pre,
-    blockquote {
-      border: 1px solid #999;
-      page-break-inside: avoid;
-    }
-  
-    /*
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /*
      * Printing Tables:
      * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-    thead {
-      display: table-header-group;
-    }
-  
-    tr,
-    img {
-      page-break-inside: avoid;
-    }
-  
-    p,
-    h2,
-    h3 {
-      orphans: 3;
-      widows: 3;
-    }
-  
-    h2,
-    h3 {
-      page-break-after: avoid;
-    }
+  thead {
+    display: table-header-group;
   }
-  
-  
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
