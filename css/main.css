@@ -450,15 +450,15 @@ header nav ul.active {
 #projects article {
   width: 100%;
   margin: 30px 0 30px 0;
-  vertical-align: top;
 }
 
 #projects .projects-items {
   display: flex;
-  align-items: center;
+  align-items:flex-start;
   flex-flow: row wrap;
-  vertical-align: top;
 }
+
+
 
 #projects p {
   margin: 0;
