@@ -314,6 +314,10 @@ footer {
   line-height: 2;
 }
 
+footer h1 {
+  text-align: center;
+}
+
 footer div {
   text-wrap: nowrap;
 }
@@ -330,7 +334,7 @@ footer p {
 }
 
 footer .content-wrapper {
-  width: 55%;
+  width: 80%;
   margin: 50px 0;
 }
 
