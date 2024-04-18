@@ -94,6 +94,7 @@ html {
 
 img {
   width: 100%;
+  border-style: double;
 }
 
 figure {
@@ -438,7 +439,7 @@ header nav ul.active {
 .button-link {
   margin-top: 10px;
   display: inline-block;
-  width: 325px;
+  width: 300px;
   padding: 10px 20px;
   background-color: #351D77;
   color: white;
@@ -468,7 +469,7 @@ header nav ul.active {
 #projects img {
   font-size: 3.75em;
   align-items: center;
-  width: 350px;
+  width: 300px;
 }
 
 .projects-item-description {
@@ -694,6 +695,10 @@ footer .content-wrapper {
 
   #projects h2 {
     font-size: 2.25em;
+  }
+
+  #projects img {
+    width: 400px;
   }
 
   #projects .projects-item-description {
