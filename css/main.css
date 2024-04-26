@@ -360,6 +360,11 @@ footer .social-icons p {
 
 }
 
+footer a:hover {
+  color: #6a52ab;
+  background-color: #60bebd;
+}
+
 footer .social-icons i {
   font-size: 2.75em;
 }
